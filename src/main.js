@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import './registerServiceWorker'
+import BootstrapVue from 'bootstrap-vue'
+import './assets/styles/custom.scss'
+
+Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false
 
